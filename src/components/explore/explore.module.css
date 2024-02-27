@@ -1,0 +1,105 @@
+.container {
+    background-color: #f7f7f7;
+    max-width: 1500px;
+    min-height: 100vh;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+  }
+.container>h2 {
+    text-align: center;
+    font-size:45px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    color: #555555;
+}
+form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  input {
+    border: 1px solid #f7f7f7;
+    padding: 10px;
+    font-size: 16px;
+  
+  }
+  input:focus {
+    outline: none;
+  }
+  
+  .formControl {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+  }
+  
+  .btn {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    background-color: #d79734;
+    color: white;
+  
+  }
+  
+  .recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    max-width: 266px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 10px 12px 29px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 12px 29px -20px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 12px 29px -20px rgba(0, 0, 0, 0.75);
+  }
+
+  .card:hover{
+    transform: scale(1.025);
+    border: 1px solid #d79734;
+}
+  
+  .cardImage {
+    width: 100%;
+  }
+  
+  .cardBody {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .category {
+    color: #a1a1a1;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: #333;
+}
+.heartIcon{
+  font-size: 24px;
+  cursor: pointer;
+}
+button{
+  background: none;
+  border: none;
+}
+button:disabled > .heartIcon{
+  color: red;
+  
+  cursor: no-drop;
+}
+.redHeart{
+ 
+  color: red;
+}

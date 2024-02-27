@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 1500px;
+    min-height: 100vh;
+}
+.titleSection{
+    text-align: center;
+    font-size:45px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    color: #555555;
+    /* text-align: center;
+    margin-top: 3em;
+    font-size: 40px;
+    color:  #bc8738; */
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    /* flex-direction: row; */
+    /* margin: 5rem 10rem; */
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.left{
+    height: 456px;
+    width: 500px;
+    position: relative;
+    padding-left: 3%;
+}
+.left >img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.title{
+    font-size: 20px;
+}
+.title >h3{
+    color: #dc9716;
+    /* color: orange; */
+    font-size: 33px;
+}
+.title >h4{
+    color: #777;
+}
+
+p{
+    font-size: 19px;
+    /* padding-right: 10px; */
+}
+
+.ingredients{
+    margin: 1rem 10rem;
+    font-size: 20px;
+}
+.ingredients>h4{
+    color: #555555;
+}
+
+.ingredient{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.ingredientElem{
+    margin-bottom: 10px;
+    font-size: 18px;
+    gap: 5px;
+    color: #555555;
+}
+.pinIcon{
+    color: #dc9716;
+}
+.video{
+    
+    margin: 2rem 9rem;
+}
+.video >a{
+    color: #dc9716;
+    font-size: 21px;
+}

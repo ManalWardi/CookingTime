@@ -1,0 +1,136 @@
+.container {
+    height: calc(100vh - 60px);
+    width: 100%;
+    /* margin-top: 8rem; */
+}
+
+.wrapper {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 0.5rem; */
+    margin-bottom: 3rem;
+}
+
+.separator {
+    background-color: #bc8738;
+    height: 5px;
+    width: 50%;
+}
+
+.titles>h5 {
+    font-size: 28px;
+    /* color: #bc8738; */
+    color: #d79734;
+    letter-spacing: 1px;
+}
+
+.titles>h2 {
+    font-size: 40px;
+    color: #bc8738;
+    letter-spacing: 1px;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+
+.category{
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #d79734;
+    background-color: #fff;
+    color: #d79734;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.category.active{
+   background-color: #d79734;
+   color: #fff;
+   
+}
+
+.recipes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+    background-color: #f7f7f7;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .recipes{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+
+    }
+    .categories{
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+    
+}
+
+/* .recipe{
+    height: 350px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    background-color: #fcf0de;
+    padding: 15px;
+} */
+/* .recipeTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.heartIcon{
+    font-size: 24px;
+}
+
+.recipe:hover{
+    transform: scale(1.025);
+    
+}
+
+.imgContainer{
+    height: 80%;
+    width: 100%;
+    transition: 150ms;
+}
+
+
+.imgContainer > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+   
+}
+
+
+.link{
+    text-decoration: none;
+    color: #333;
+} */

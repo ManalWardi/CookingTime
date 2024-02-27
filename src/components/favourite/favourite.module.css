@@ -1,0 +1,75 @@
+.container {
+    background-color: #f7f7f7;
+    max-width: 1500px;
+    min-height: 100vh;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+  }
+.container>h2 {
+    text-align: center;
+    font-size:45px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    color: #555555;
+
+}
+.recipes {
+  /* background-color: #f7f7f7; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 20px;
+    padding:5rem 0 ; */
+  }
+  .card {
+    max-width: 266px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 10px 12px 29px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 12px 29px -20px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 12px 29px -20px rgba(0, 0, 0, 0.75);
+  }
+
+  .card:hover{
+    transform: scale(1.025);
+    border: 1px solid #d79734;
+}
+  
+  .cardImage {
+    width: 100%;
+  }
+  
+  .cardBody {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .category {
+    color: #a1a1a1;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: #333;
+}
+.heartIcon{
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+  }
+button{
+    background: none;
+    border: none;
+}
+.noRecipe{
+    color: gray;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
